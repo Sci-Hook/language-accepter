@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@types/node": "^20.4.8",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "syncforeachloop": "^0.0.1",
+    "typescript": "^5.1.6"
+  },
+  "name": "language-accepter",
+  "version": "1.0.7",
+  "main": "./build/index.js",
+  "scripts": {
+    "tsc": "tsc ./index.ts -w --outDir ./build",
+    "compile": "tsc ./index.ts --outDir ./build",
+    "nodemon": "nodemon ./build/index.js"
+  },
+  "author": "Emirhan Gerçeker",
+  "license": "MIT",
+  "description": "Language support middleware for Express.",
+  "keywords": [
+    "language",
+    "language-support",
+    "middleware",
+    "express-language",
+    "express-middleware",
+    "scihook"
+  ]
+}

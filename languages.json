@@ -1,0 +1,16 @@
+{
+    "$schema": "schema.json",
+    "$version": "0.0.1",
+    "accepted-languages":[
+        "tr-tr",
+        "en-us",
+        "en-au",
+        "tr"
+    ],
+    "default-language":"en-us",
+    "language-info-locations":["headers.location"],
+    "autocreate-lanuage-cookie":{
+        "name":"location",
+        "expires":100000000
+    }
+}

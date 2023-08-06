@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Lang-Support",
+    "description": "A product from Acme's catalog",
+    "type": "object",
+    "properties": {
+        "$version":{
+            "type":"string",
+            "description": "Version of the file."
+        },
+       "accepted-languages": {
+            "description": "Languages to be accepted by the system.",
+            "type": "array"
+       },
+       "default-language":{
+            "description": "Language to be redirected if no valid language is received",
+            "type":"string"
+       }
+    },
+    "required": ["accepted-languages"]
+}
