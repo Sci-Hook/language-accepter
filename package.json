@@ -7,7 +7,7 @@
     "typescript": "^5.1.6"
   },
   "name": "language-accepter",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "main": "./build/index.js",
   "scripts": {
     "tsc": "tsc ./index.ts -w --outDir ./build",

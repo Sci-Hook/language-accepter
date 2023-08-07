@@ -1,10 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var express = require("express");
+exports.languageParser = void 0;
 var src_1 = require("./src");
-var app = express();
-app.use((0, src_1.languageParser)('languages'));
-app.use('/', function (req, res) {
-    res.send(res.lang);
-});
-app.listen(80);
+Object.defineProperty(exports, "languageParser", { enumerable: true, get: function () { return src_1.languageParser; } });
