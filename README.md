@@ -110,10 +110,6 @@ app.listen(80);
 
 It can also be configured with a JSON by giving the name of the above JSON file in `languageParser`.
 
-# Contributors
-
-This software package is developed and provided by the Sci-Hook Organization. It is actively developed by [Emirhan Gerçeker](https://github.com/lim10tech).
-
 # License
 
 This package is made available as open-source under the [MIT License](https://github.com/Sci-Hook/language-accepter/blob/main/LICENSE). It is open for development, modification and free use. You can use the package in your personal or organizational projects, you don't need permission from anywhere. Attribution to the developers and Sci-Hook is appreciated but not legally required.
