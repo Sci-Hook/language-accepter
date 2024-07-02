@@ -110,10 +110,6 @@ app.listen(80);
 
 `languageParser` içerisine yukarıdaki JSON dosyasının ismi verilerek bir JSON ile de konfigrasyonu gerçekleştirilebilir.
 
-# Katkı Sağlayanlar
-
-Bu yazılım paketi, Sci-Hook Organizasyonu tarafından geliştirilmekte ve sunulmaktadır. Aktif olarak [Emirhan Gerçeker](https://github.com/lim10tech) tarafından geliştirilmektedir.
-
 # Lisans
 
 Bu paket [MIT Lisansı](https://github.com/Sci-Hook/language-accepter/blob/main/LICENSE) altında açık kaynak olarak sunulmuştur. Geliştirmelere, değişiklik yapmaya ve özgür kullanıma açıktır. Kişisel veya organizasyon projelerinizde paketten faydalanabilirsiniz, herhangi bir yerden izin almanız gerekmez. Geliştirenlere ve Sci-Hook'a atıfta bulunmanız bizi çok mutlu edecektir ancak yasal olarak gerekli değildir.
